@@ -1,0 +1,6 @@
+footer {
+  margin: 0 auto 30px;
+  width: 750px;
+  text-align: center;
+  color: var(--color-light);
+}

@@ -1,0 +1,50 @@
+header {
+  display: flex;
+  position: relative;
+  justify-content: right;
+  align-items: center;
+  margin: 30px auto 0;
+  width: 750px;
+}
+
+h1,
+a {
+  font-size: 1.5em;
+}
+
+h1 {
+  position: absolute;
+  left: 0;
+}
+a {
+  position: relative;
+}
+
+a:first-of-type {
+  margin-right: 30px;
+}
+
+a:hover {
+  text-shadow: 0 0 10px rgba(7, 195, 139, 0.6);
+}
+
+a > p {
+  position: absolute;
+  left: -6px;
+  bottom: -12px;
+  color: var(--color-light);
+}
+
+a > img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  object-position: center center;
+}
+
+@media screen and (max-width: 500px) {
+  header {
+    width: 700px;
+    margin-left: 20px;
+  }
+}

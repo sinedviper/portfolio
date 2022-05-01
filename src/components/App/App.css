@@ -1,0 +1,21 @@
+:root {
+  --color-light: #e1f5e4;
+  --color-middle: #07c38b;
+  --color-dark: #024330;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Sarabun", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+body {
+  background-color: #1a1a1d;
+  color: var(--color-middle);
+}
