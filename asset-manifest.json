@@ -1,23 +1,21 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.5c601aad.css",
-    "main.js": "/portfolio/static/js/main.53721db2.js",
-    "static/media/galaxytravel(react).png": "/portfolio/static/media/galaxytravel(react).a5b72653e104ece927c5.png",
-    "static/media/starwars(react).png": "/portfolio/static/media/starwars(react).a2b1cbf9ffba70b86f15.png",
-    "static/media/fashion.png": "/portfolio/static/media/fashion.d6a0400364eefc33fecc.png",
-    "static/media/dolla(react).png": "/portfolio/static/media/dolla(react).62088c0d6b453709c98e.png",
-    "static/media/webovio.png": "/portfolio/static/media/webovio.dee83d6819378113c04e.png",
-    "static/media/nike.png": "/portfolio/static/media/nike.0a4ffecbd417343adf38.png",
-    "static/media/moonriver.png": "/portfolio/static/media/moonriver.299fbc117d4979845998.png",
-    "static/media/telegraph.png": "/portfolio/static/media/telegraph.2ee0ded51e495c237319.png",
-    "static/media/portfoliowebsite(react).png": "/portfolio/static/media/portfoliowebsite(react).f453b5acf83b55f8d665.png",
-    "static/media/redux(react).png": "/portfolio/static/media/redux(react).c379f68b297fe6bc03c3.png",
+    "main.css": "/portfolio/static/css/main.a20995b1.css",
+    "main.js": "/portfolio/static/js/main.37608a2b.js",
+    "static/media/starwars(react).png": "/portfolio/static/media/starwars(react).923f1ef02151523956e6.png",
+    "static/media/galaxytravel(react).png": "/portfolio/static/media/galaxytravel(react).bbfdfe5ff3be7420dd94.png",
+    "static/media/fashion.png": "/portfolio/static/media/fashion.fca2dbd2a4e299cc137c.png",
+    "static/media/webovio.png": "/portfolio/static/media/webovio.1428bf0e4773af32486b.png",
+    "static/media/nike.png": "/portfolio/static/media/nike.b3de0ba67eb071d03a73.png",
+    "static/media/dolla(react).png": "/portfolio/static/media/dolla(react).dba446f71c9de6e1d289.png",
+    "static/media/telegraph.png": "/portfolio/static/media/telegraph.fa091f9dd752db16fe3a.png",
+    "static/media/portfoliowebsite(react).png": "/portfolio/static/media/portfoliowebsite(react).543590dc14b72b3f4757.png",
     "index.html": "/portfolio/index.html",
-    "main.5c601aad.css.map": "/portfolio/static/css/main.5c601aad.css.map",
-    "main.53721db2.js.map": "/portfolio/static/js/main.53721db2.js.map"
+    "main.a20995b1.css.map": "/portfolio/static/css/main.a20995b1.css.map",
+    "main.37608a2b.js.map": "/portfolio/static/js/main.37608a2b.js.map"
   },
   "entrypoints": [
-    "static/css/main.5c601aad.css",
-    "static/js/main.53721db2.js"
+    "static/css/main.a20995b1.css",
+    "static/js/main.37608a2b.js"
   ]
 }
