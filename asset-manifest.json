@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.574a3273.css",
-    "main.js": "/portfolio/static/js/main.37608a2b.js",
+    "main.css": "/portfolio/static/css/main.4523189d.css",
+    "main.js": "/portfolio/static/js/main.f29a9ec7.js",
     "static/media/starwars(react).png": "/portfolio/static/media/starwars(react).923f1ef02151523956e6.png",
     "static/media/galaxytravel(react).png": "/portfolio/static/media/galaxytravel(react).bbfdfe5ff3be7420dd94.png",
+    "static/media/portfoliowebsite(react).png": "/portfolio/static/media/portfoliowebsite(react).a4bb4664c613934018d5.png",
     "static/media/fashion.png": "/portfolio/static/media/fashion.fca2dbd2a4e299cc137c.png",
     "static/media/webovio.png": "/portfolio/static/media/webovio.1428bf0e4773af32486b.png",
     "static/media/nike.png": "/portfolio/static/media/nike.b3de0ba67eb071d03a73.png",
     "static/media/dolla(react).png": "/portfolio/static/media/dolla(react).dba446f71c9de6e1d289.png",
     "static/media/telegraph.png": "/portfolio/static/media/telegraph.fa091f9dd752db16fe3a.png",
-    "static/media/portfoliowebsite(react).png": "/portfolio/static/media/portfoliowebsite(react).543590dc14b72b3f4757.png",
     "index.html": "/portfolio/index.html",
-    "main.574a3273.css.map": "/portfolio/static/css/main.574a3273.css.map",
-    "main.37608a2b.js.map": "/portfolio/static/js/main.37608a2b.js.map"
+    "main.4523189d.css.map": "/portfolio/static/css/main.4523189d.css.map",
+    "main.f29a9ec7.js.map": "/portfolio/static/js/main.f29a9ec7.js.map"
   },
   "entrypoints": [
-    "static/css/main.574a3273.css",
-    "static/js/main.37608a2b.js"
+    "static/css/main.4523189d.css",
+    "static/js/main.f29a9ec7.js"
   ]
 }
