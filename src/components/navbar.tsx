@@ -10,6 +10,7 @@ import {
 import { DATA } from "@/data/resume";
 import { cn } from "@/lib/utils";
 import Link from "next/link";
+import { Icons } from "@/components/icons";
 
 export default function Navbar() {
   return (
@@ -24,7 +25,7 @@ export default function Navbar() {
                   href={item.href}
                   className={cn(
                     buttonVariants({ variant: "ghost", size: "icon" }),
-                    "size-12"
+                    "size-12",
                   )}
                 >
                   <item.icon className="size-4" />
@@ -47,8 +48,10 @@ export default function Navbar() {
                     href={social.url}
                     className={cn(
                       buttonVariants({ variant: "ghost", size: "icon" }),
-                      "size-12"
+                      "size-12",
                     )}
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
                     <social.icon className="size-4" />
                   </Link>
@@ -59,6 +62,26 @@ export default function Navbar() {
               </Tooltip>
             </DockIcon>
           ))}
+        <Separator orientation="vertical" className="h-full py-2" />
+        <DockIcon>
+          <Tooltip>
+            <TooltipTrigger asChild>
+              <a
+                href={DATA.resume}
+                download={DATA.resume.replace("/", "")}
+                className={cn(
+                  buttonVariants({ variant: "ghost", size: "icon" }),
+                  "size-12",
+                )}
+              >
+                <Icons.resume className="size-5" />
+              </a>
+            </TooltipTrigger>
+            <TooltipContent>
+              <p>Resume</p>
+            </TooltipContent>
+          </Tooltip>
+        </DockIcon>
         <Separator orientation="vertical" className="h-full py-2" />
         <DockIcon>
           <Tooltip>

@@ -5,33 +5,113 @@ export const DATA: Root = {
   name: "Denis Repyev",
   initials: "DR",
   url: "https://sinedviper.com",
+  resume: "/Denis_Repyev_Full_Stack_Resume.pdf",
   location: "Odessa, UK",
   locationLink: "https://www.google.com/maps/place/odessa",
   description:
-    "Fullstack developer with 4+ years of experience. Building web and mobile apps, AI pipelines, and scalable systems. Passionate about clean code and mentorship.",
-  summary: `I have over 4 years of experience as a Fullstack developer. My programming journey started at university, where I studied C#, C++, Java, JavaScript, and TypeScript. I began my professional career as a Fullstack intern at Bulgaria BulBank, working on frontend projects: fixing bugs, optimizing code, and implementing new features. After that, I joined Digital Invest Advisor as a Frontend React developer, where I built key functionality, worked with WebSocket, WebRTC, Firebase, Google Maps API, Redux Toolkit, and Web Audio, contributing to projects like Moow Landing, Moow, and Tentai.
+    "Fullstack developer with 5 years of experience. Building backend services, cloud infrastructure, AI pipelines, and web and mobile apps. Passionate about scalable architecture and mentorship.",
+  summary: `Full Stack Developer with 5 years of experience building web applications end-to-end, with a strong focus on backend development and infrastructure. Works primarily with TypeScript and JavaScript.
 
-  Currently, I work at Incant, a startup where I contributed to multiple platforms including Incant, Mentme, Globasity, Gymate, Kuku, Enforcy, and BeachMe. In these projects, I work across both frontend and backend: developing UI components, profile pages, cards, forms, editors, and interactive workflows; designing and implementing APIs with Node.js, NestJS, and Hono; handling data processing, database schemas, migrations, batch processing, and ensuring data consistency. I also build mobile applications with React Native and Expo, fully publishing them to the App Store and Google Play. Additionally, I develop AI and automation pipelines for document analysis, image generation, and multi-step workflows using OpenAI, Gemini, Anthropic, and FalAi.
+Backend. APIs and services with Node.js and NestJS — database schemas, migrations, and data processing; async job processing with BullMQ and Redis; API caching and request throttling; Google and Apple authentication; payment integration with Stripe. Databases: PostgreSQL, MongoDB, Neon, and Firebase, with Pinecone for vector search, using Prisma ORM, TypeORM, and Drizzle Kit.
 
-  I specialize in creating scalable, maintainable, and high-performance systems, and I enjoy optimizing code, reducing duplication, and applying best practices such as KISS, DRY, and SOLID. I am passionate about mentoring and collaborating with teammates to improve code quality, architecture, and product experience.`,
-  avatarUrl: "/me.png",
-  skills: [
-    "React",
-    "Next.js",
-    "TypeScript",
-    "Node.js",
-    "NestJS",
-    "Hono",
-    "PostgreSQL",
-    "Supabase",
-    "Tailwind CSS",
-    "Radix UI",
-    "React Native",
-    "Expo",
-    "Docker",
-    "Google Cloud",
-    "AI / LLM pipelines",
-  ],
+Infrastructure & deployment. Containerized deployment with Docker and CI/CD pipelines; AWS — S3, ECS, RDS, IAM, and CloudWatch Logs; a full observability stack with Prometheus, Loki, Node Exporter, and Grafana; load testing with k6.
+
+AI integrations. OpenAI GPT, Anthropic, and Gemini for file generation (pdf, docx), chat systems with custom instructions, image analysis, and internet search. Built image generation pipelines that train custom models from user photos and generate new images from them.
+
+Frontend. Performant, cross-browser interfaces with React, Next.js, and Tailwind CSS; mobile apps with React Native and Expo, published to the App Store and Google Play; real-time features with WebSocket, WebRTC, and Web Audio; authentication flows with Google, Apple, Facebook, email, and phone.
+
+Engineering approach. Building scalable, maintainable systems — reducing duplication and applying KISS, DRY, and SOLID. Mentors junior developers and contributes to architectural decisions.`,
+  avatarUrl: "/me.webp",
+  skills: {
+    languages: ["TypeScript", "JavaScript"],
+
+    frontend: [
+      "React",
+      "Next.js",
+      "Tailwind CSS",
+      "Radix UI",
+      "Shadcn UI",
+      "Redux Toolkit",
+      "Zustand",
+      "Jotai",
+      "TanStack Query",
+      "Web RTC",
+      "Web Audio",
+      "Web Socket",
+    ],
+
+    mobile: ["React Native", "Expo", "App Store / Google Play publishing"],
+
+    backend: [
+      "Node.js",
+      "NestJS",
+      "Hono",
+      "Fastify",
+      "REST API",
+      "Socket.io",
+      "BullMQ",
+      "Cron Jobs",
+      "Zod",
+      "class-validator",
+      "Joi",
+      "Sharp",
+      "Stripe",
+    ],
+
+    databases: [
+      "PostgreSQL",
+      "MongoDB",
+      "Neon",
+      "Supabase",
+      "Firebase",
+      "Redis",
+      "Pinecone",
+      "Prisma ORM",
+      "Type ORM",
+      "Drizzle ORM",
+    ],
+
+    authentication: [
+      "Google Auth",
+      "Apple Auth",
+      "Facebook Auth",
+      "Firebase Auth",
+      "Email & phone authentication",
+    ],
+
+    infrastructure: [
+      "Docker",
+      "AWS (S3, ECS, RDS, IAM, CloudWatch Logs)",
+      "Google Cloud",
+      "CI/CD (GitHub Actions)",
+      "Turborepo",
+      "pnpm",
+      "npm",
+      "bun",
+      "Git / GitHub",
+    ],
+
+    monitoring: [
+      "Prometheus",
+      "Grafana",
+      "Loki",
+      "Node Exporter",
+      "k6 (load testing)",
+    ],
+
+    ai: [
+      "OpenAI API",
+      "Anthropic Claude API",
+      "Gemini API",
+      "FalAi",
+      "AI / LLM pipelines",
+      "RAG",
+      "Image generation & analysis",
+      "PDF / DOCX generation",
+    ],
+
+    ["testing & quality"]: ["Jest", "ESLint", "Prettier"],
+  },
   navbar: [{ href: "/", icon: HomeIcon, label: "Home" }],
   contact: {
     email: "sinedviper@gmail.com",
@@ -54,16 +134,51 @@ export const DATA: Root = {
 
   work: [
     {
-      company: "Incant (Startup)",
+      company: "Stealth Startup",
+      href: "",
+      badges: [],
+      location: "Remote",
+      title: "FullStack Developer",
+      logoUrl: "/s.webp",
+      start: "August 2025",
+      end: "Present",
+      description: `- Developing new features and optimizing backend processes on the projects with NestJS, working within a monorepo setup.
+- Migrated and refactored business logic between services, improving storage structure and code reuse across the codebase.
+- Designed and maintained PostgreSQL schemas and migrations, and optimized slow queries — reducing response times from around 2s down to 200ms.
+- Conducted load testing with k6 across multiple server scenarios to find the most efficient configuration, doubling throughput as a result.
+- Implemented API caching, request throttling, and full async job processing with BullMQ and Redis for background and scheduled tasks.
+- Set up a complete observability stack with Prometheus, Loki, Node Exporter, and Grafana, building dashboards and running it in Docker.
+- Implemented WebSocket communication backed by Redis across all required endpoints and wrote the accompanying socket documentation for the team.
+- Integrated Stripe payments and authentication flows with Google and Apple sign-in, including session management and access control.
+- Implemented AI-powered community validation using the OpenAI API to automatically review user-submitted content.
+- Worked with AWS services — S3 for file storage, ECS for container deployment, RDS for managed databases, IAM for access management, and CloudWatch Logs for monitoring.
+- Set up and maintained CI/CD pipelines and Docker-based deployment, conducted code reviews, and mentored developers.
+- Developed two multilingual, SEO-optimized landing pages with Next.js.`,
+    },
+    {
+      company: "Incant",
       href: "https://tryincant.com/",
       badges: [],
       location: "Remote",
-      title: "Fullstack Developer",
+      title: "FullStack Developer",
       logoUrl: "/incant.webp",
       start: "April 2024",
-      end: "Present",
-      description:
-        "Worked on multiple web and mobile platforms with fullstack development, contributing to frontend, backend, and AI features; developed and maintained React Native iOS/Android apps, successfully publishing to App Store and Google Play; built UI components, profile pages, cards, forms, editors, and interactive workflows, improving UX, performance, and page logic; designed and implemented backend APIs with Node.js/NestJS and Hono, handling data processing, migrations, batch jobs, retries, and data consistency; built AI-powered automation pipelines (RAG, MCP) for document analysis, schema extraction, multi-step workflows, image generation, chunking, and deduplication using OpenAI, Gemini, and Mistral; integrated authentication systems including Kinde, Better Auth, and social logins with session management, password recovery, and access control; managed infrastructure and developer tooling such as Turborepo + pnpm, Docker, ESLint/Prettier/Biome, CI/CD pipelines, and Jest, while conducting code reviews and mentoring developers; worked with databases and cloud platforms including Supabase, PostgreSQL/Neon, Redis, Firebase, and Google Cloud for storage, messaging, background tasks, and deployments; key projects include Incant (dynamic workflow builder with node creation, connections, template loading, and element search), Kuku (AI-driven media generation interface with backend model management and file storage), Gymate (user dashboards, workout tracking, analytics, backend APIs, and database schema management), and BeachMe (authentication and user profiles with email/password and social login, session handling, password recovery, and profile management).",
+      end: "August 2025",
+      description: `- Worked on multiple web and mobile platforms as a fullstack developer across frontend, backend, and AI features.
+- Developed and maintained React Native iOS and Android apps, published end-to-end to the App Store and Google Play.
+- Built UI components, cards, forms, editors, and interactive workflows with Next.js and Tailwind CSS, improving UX, performance, and page logic.
+- Built backend APIs with Node.js, NestJS, and Hono — data processing, migrations, batch jobs, retries, and data consistency.
+- Built AI-powered automation pipelines (RAG, MCP) for document analysis, schema extraction, multi-step workflows, image generation, chunking, and deduplication using OpenAI, Anthropic, Gemini, and Mistral.
+- Implemented AI features: file generation (PDF, DOCX), chat systems, image analysis, and web search.
+- Integrated authentication systems — Kinde, Better Auth, and social logins — with session management, password recovery, and access control.
+- Managed infrastructure and developer tooling: Turborepo + pnpm, Docker, ESLint/Prettier, CI/CD pipelines, and Jest; conducted code reviews and mentored developers.
+- Worked with databases and cloud platforms — Supabase, PostgreSQL/Neon, MongoDB, Redis, Firebase, and Google Cloud — using Prisma ORM and Drizzle Kit for storage, messaging, background tasks, and deployments.
+
+Key projects:
+- Gymate — fitness platform built solo end-to-end: trainer web app for workout programs, meal plans, and client progress reports, plus a client mobile app with workout logging, calorie tracking, and AI food recognition from photos.
+- BeachMe — beach reservation app with payments (frontend + backend): owners lay out tables, chairs, and sunbeds; clients find beaches via Google Maps and book and pay for specific spots.
+- Kuku — voice-driven notes and reminders app with AI transcription and processing; built frontend and backend.
+- Incant — dynamic workflow builder with node creation, connections, template loading, and element search.`,
     },
     {
       company: "<DIA/>",
@@ -74,20 +189,33 @@ export const DATA: Root = {
       logoUrl: "/dia.webp",
       start: "August 2022",
       end: "April 2024",
-      description:
-        "Developed and optimized frontend architecture in React, including components, routing, and state management; implemented user registration and authentication with Google login; built chat functionality, video/audio calls, audio messages, and notification systems using WebSocket, WebRTC, and WebAudio; handled file uploads and downloads with proper storage and processing; wrote reusable and testable TypeScript/JavaScript code with unit tests; optimized performance and ensured cross-browser compatibility.",
+      description: `- Developed and optimized the frontend architecture in React — components, routing, and state management with Redux Toolkit.
+- Implemented user registration and authentication with Firebase Auth, including Google login, and ensured website security.
+- Built chat functionality, video and audio calls, audio messages, and notification systems using WebSocket, WebRTC, and Web Audio.
+- Integrated the Google Maps API for location-based features across the marketplace.
+- Handled file uploads and downloads through REST APIs, ensuring proper storage and processing.
+- Wrote reusable and testable TypeScript/JavaScript code, covered by unit tests.
+- Optimized performance and ensured cross-browser compatibility.
+
+Key projects:
+- Moow — classifieds marketplace where users post listings and sell goods directly to buyers, in the style of OLX.
+- Moow Landing — marketing site presenting the Moow marketplace and driving user sign-ups.
+- Tentai — the same marketplace product, built for the Asian market.`,
     },
     {
       company: "BulBank",
       href: "https://www.unicreditbulbank.bg/en/individual-clients/",
       badges: [],
       location: "Plovdiv, Bulgaria",
-      title: "Fullstack Developer",
+      title: "FullStack Developer",
       logoUrl: "/bulbank.webp",
       start: "February 2022",
       end: "July 2022",
-      description:
-        "Created and optimized reusable front-end components, built a fullstack Telegram clone, developed REST API foundations and fixed existing requests, resolved various front-end bugs, and implemented websites using HTML, CSS/SCSS, JavaScript, and TypeScript.",
+      description: `- Created simple components and optimization components
+- Successful Telegram clone as a fullstack developer
+- Developed RestApi foundation and corrected exist requests
+- Fixed different bugs as a front-end developer and created general components
+- Coded websites using HTML, CSS/SCSS, JS, TS`,
     },
   ],
   education: [
@@ -144,13 +272,14 @@ export const DATA: Root = {
 export interface Root {
   name: string;
   initials: string;
+  resume: string;
   url: string;
   location: string;
   locationLink: string;
   description: string;
   summary: string;
   avatarUrl: string;
-  skills: string[];
+  skills: Record<string, string[]>;
   navbar: Navbar[];
   contact: Contact;
   work: Work[];
