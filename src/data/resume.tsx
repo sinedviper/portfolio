@@ -138,41 +138,45 @@ Engineering approach. Building scalable, maintainable systems — reducing dupli
       href: "",
       badges: [],
       location: "Remote",
-      title: "FullStack Developer",
+      title: "Full Stack Developer",
       logoUrl: "/s.webp",
       start: "August 2025",
       end: "Present",
-      description: `- Developing new features and optimizing backend processes on the projects with NestJS, working within a monorepo setup.
+      description: `- Developed new features and optimized backend processes across projects built with NestJS in a monorepo setup.
 - Migrated and refactored business logic between services, improving storage structure and code reuse across the codebase.
-- Designed and maintained PostgreSQL schemas and migrations, and optimized slow queries — reducing response times from around 2s down to 200ms.
-- Conducted load testing with k6 across multiple server scenarios to find the most efficient configuration, doubling throughput as a result.
+- Designed and maintained PostgreSQL schemas and migrations, and optimized slow queries — cutting response times from ~2s to ~200ms.
+- Conducted load testing with k6 across multiple server scenarios to find the most efficient configuration, doubling throughput.
 - Implemented API caching, request throttling, and full async job processing with BullMQ and Redis for background and scheduled tasks.
-- Set up a complete observability stack with Prometheus, Loki, Node Exporter, and Grafana, building dashboards and running it in Docker.
-- Implemented WebSocket communication backed by Redis across all required endpoints and wrote the accompanying socket documentation for the team.
-- Integrated Stripe payments and authentication flows with Google and Apple sign-in, including session management and access control.
-- Implemented AI-powered community validation using the OpenAI API to automatically review user-submitted content.
-- Worked with AWS services — S3 for file storage, ECS for container deployment, RDS for managed databases, IAM for access management, and CloudWatch Logs for monitoring.
+- Set up a complete observability stack — Prometheus, Loki, Node Exporter, and Grafana — with dashboards, running in Docker.
+- Implemented Redis-backed WebSocket communication across all required endpoints and wrote the socket documentation for the team.
+- Integrated Stripe payments and Google and Apple sign-in, including session management and access control.
+- Implemented AI-powered community validation with the OpenAI API to automatically review user-submitted content.
+- Deployed and operated services on AWS: S3, ECS, RDS, IAM, and CloudWatch Logs.
 - Set up and maintained CI/CD pipelines and Docker-based deployment, conducted code reviews, and mentored developers.
-- Developed two multilingual, SEO-optimized landing pages with Next.js.`,
+- Developed two multilingual, SEO-optimized landing pages with Next.js.
+
+Key projects:
+- Judah — a gamified Bible study app with quizzes, reading streaks, leaderboards, and a community feed.
+- TwoBetter — a relationship guide with gamified lessons and quizzes on emotional maturity, healing, and intentional dating.`,
     },
     {
       company: "Incant",
       href: "https://tryincant.com/",
       badges: [],
       location: "Remote",
-      title: "FullStack Developer",
+      title: "Full Stack Developer",
       logoUrl: "/incant.webp",
       start: "April 2024",
       end: "August 2025",
-      description: `- Worked on multiple web and mobile platforms as a fullstack developer across frontend, backend, and AI features.
+      description: `- Built AI-powered automation pipelines (RAG, MCP) for document analysis, schema extraction, multi-step workflows, image generation, chunking, and deduplication using OpenAI, Anthropic, Gemini, and Mistral.
+- Trained custom image models from user photos and built the generation pipelines on top of them.
+- Implemented AI features: file generation (pdf, docx), chat systems, image analysis, and web search.
+- Built backend APIs with Node.js, NestJS, and Hono — data processing, migrations, batch jobs, retries, and data consistency.
 - Developed and maintained React Native iOS and Android apps, published end-to-end to the App Store and Google Play.
 - Built UI components, cards, forms, editors, and interactive workflows with Next.js and Tailwind CSS, improving UX, performance, and page logic.
-- Built backend APIs with Node.js, NestJS, and Hono — data processing, migrations, batch jobs, retries, and data consistency.
-- Built AI-powered automation pipelines (RAG, MCP) for document analysis, schema extraction, multi-step workflows, image generation, chunking, and deduplication using OpenAI, Anthropic, Gemini, and Mistral.
-- Implemented AI features: file generation (PDF, DOCX), chat systems, image analysis, and web search.
+- Designed and operated the data layer across Supabase, PostgreSQL/Neon, MongoDB, Redis, and Firebase with Prisma ORM and Drizzle Kit, deployed on Google Cloud.
 - Integrated authentication systems — Kinde, Better Auth, and social logins — with session management, password recovery, and access control.
 - Managed infrastructure and developer tooling: Turborepo + pnpm, Docker, ESLint/Prettier, CI/CD pipelines, and Jest; conducted code reviews and mentored developers.
-- Worked with databases and cloud platforms — Supabase, PostgreSQL/Neon, MongoDB, Redis, Firebase, and Google Cloud — using Prisma ORM and Drizzle Kit for storage, messaging, background tasks, and deployments.
 
 Key projects:
 - Gymate — fitness platform built solo end-to-end: trainer web app for workout programs, meal plans, and client progress reports, plus a client mobile app with workout logging, calorie tracking, and AI food recognition from photos.
@@ -189,13 +193,14 @@ Key projects:
       logoUrl: "/dia.webp",
       start: "August 2022",
       end: "April 2024",
-      description: `- Developed and optimized the frontend architecture in React — components, routing, and state management with Redux Toolkit.
-- Implemented user registration and authentication with Firebase Auth, including Google login, and ensured website security.
-- Built chat functionality, video and audio calls, audio messages, and notification systems using WebSocket, WebRTC, and Web Audio.
-- Integrated the Google Maps API for location-based features across the marketplace.
-- Handled file uploads and downloads through REST APIs, ensuring proper storage and processing.
-- Wrote reusable and testable TypeScript/JavaScript code, covered by unit tests.
-- Optimized performance and ensured cross-browser compatibility.
+      description: `- Developed and optimized the frontend architecture in React for two OLX-style marketplace platforms, one of them built for the Asian market — component structure, routing, and state management with Redux Toolkit.
+- Built real-time communication end-to-end: chat, video and audio calls, voice messages, and notifications with WebSocket, WebRTC, and Web Audio.
+- Implemented user registration and authentication with Firebase Auth, including Google login, with session handling and access control.
+- Strengthened client-side security through token handling and storage, input validation, and file upload restrictions.
+- Integrated the Google Maps API for location-based search and listing features across the marketplace.
+- Implemented file upload and download over REST APIs with upload progress tracking and client-side file previews.
+- Improved runtime performance through lazy loading, memoization of heavy components, and reduction of the existing codebase.
+- Wrote reusable TypeScript/JavaScript modules covered by Jest unit tests.
 
 Key projects:
 - Moow — classifieds marketplace where users post listings and sell goods directly to buyers, in the style of OLX.
@@ -207,30 +212,29 @@ Key projects:
       href: "https://www.unicreditbulbank.bg/en/individual-clients/",
       badges: [],
       location: "Plovdiv, Bulgaria",
-      title: "FullStack Developer",
+      title: "Full Stack Developer",
       logoUrl: "/bulbank.webp",
       start: "February 2022",
       end: "July 2022",
-      description: `- Created simple components and optimization components
-- Successful Telegram clone as a fullstack developer
-- Developed RestApi foundation and corrected exist requests
-- Fixed different bugs as a front-end developer and created general components
-- Coded websites using HTML, CSS/SCSS, JS, TS`,
+      description: `- Built a Telegram clone end-to-end, covering both the React interface and the REST API behind it.
+- Developed the REST API foundation and refactored existing request handlers.
+- Created and optimized shared UI components reused across internal projects.
+- Built responsive interfaces with HTML, CSS/SCSS, JavaScript and TypeScript.`,
     },
   ],
   education: [
     {
       school: "University by Paisii Hilendarski",
       href: "https://uni-plovdiv.bg/en/",
-      degree: "Bachelor's Degree of Computer Science (BCS)",
+      degree: "Bachelor's Degree",
       logoUrl: "/university.webp",
       start: "2018",
       end: "2022",
     },
     {
-      school: "Odessa Technical Vocational College",
+      school: "Odesa Technical Vocational College",
       href: "https://otfk.od.ua/",
-      degree: "Diploma in Computer Engineering, Vocational Secondary Education",
+      degree: "Junior Specialist",
       logoUrl: "/college.webp",
       start: "2014",
       end: "2018",
